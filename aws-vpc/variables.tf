@@ -8,7 +8,7 @@ variable "vpc_name" {
   type        = string
 }
 
-variable "env_name" {
-    description = "Environment name for tagging"
-    type        = string
+variable "vpc_environment" {
+  description = "Environment name for tagging"
+  type        = string
 }
